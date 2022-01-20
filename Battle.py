@@ -38,11 +38,11 @@ def main():
             elif user_choice == "3" and computer_choice == "2":
                 print('Chúc mừng, bạn đã cắt bao của nó. Kéo cắt bao thành 2 mảnh')
             elif user_choice == "1" and computer_choice == "2":
-                print('Ngu, bị đánh lồi ***. Bao chùm búa')
+                print('Ngu, bị đánh te tua. Bao chùm búa')
             elif user_choice == "3" and computer_choice == "1":
-                print('Ngu, bị đánh lồi ***. Búa đập hư kéo')
+                print('Ngu, bị đánh te tua. Búa đập hư kéo')
             elif user_choice == "2" and computer_choice == "3":
-                print('Ngu, bị đánh lồi ***. Kéo cắt bao thành 2 mảnh')
+                print('Ngu, bị đánh te tua. Kéo cắt bao thành 2 mảnh')
             elif user_choice == computer_choice:
                 print(f"Bất phân thắng bại đại chiến thêm 300 hiệp! {get_choice(user_choice)}")
             else:
